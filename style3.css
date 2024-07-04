@@ -1,0 +1,85 @@
+header{
+    background-color: #042e23;
+    box-shadow: 0px 3px 10px var(--color-neutral-10);
+ }
+ nav li {
+    display: inline-block;
+ }
+ nav li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+ }
+ 
+ nav li a:hover {
+    background-color: rgb(108, 165, 108);
+ }
+ 
+ .dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+ }
+ .dropdown-menu a {
+    display: block;
+    color: var(--color-neutral-30);
+ }
+ 
+ .dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+
+.teclado{
+    background-color: aquamarine;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.tecla {
+    background-color: rgba(4, 43, 31, 0.623);
+    color: rgb(55, 248, 55);
+    padding:  30px;
+}
+
+.tecla.ativa,
+.tecla:active{
+    background-color: rgba(12, 233, 233, 0.548);
+    color: rgba(19, 57, 82, 0.904);
+    outline: none;
+}
+
+.tecla.focus,
+.tecla:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px rgb(30, 48, 8);
+}
+
+.tecla.active:focus,
+.tecla.active:focus {
+    box-shadow: 3px 3px 0 rgb(44, 71, 71);
+}
+
+.calculadora {
+   font-size: 30px;
+  color: rgb(21, 138, 99);
+  margin-top: 10px;
+  margin-left: 5rem;
+}
+
+.xing-xing {
+   min-width: 100%;
+   width: auto;
+   height: 100%;
+}
+
+ p {
+   font-size: 25px;
+ }
+
+ 
