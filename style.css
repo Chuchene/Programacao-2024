@@ -143,6 +143,15 @@ nav li a:hover {
    color: black;
 }
 
+.tituloprojeto2{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   text-align: center;
+   color: black;
+   margin: top 50px;
+   margin: bottom 20px;
+}
+
 .paragrafo {
    display: block;
    margin-block-start: 1em;
@@ -150,14 +159,6 @@ nav li a:hover {
    margin-right:1,5rem;
    font-size: 25px;
   
-}
-
-.paragrafo2 {
-   font-size: 25px;
-   display: block;
-   margin-left:1,5rem;
-   margin-right:1,5rem;
-   margin: top 50px;
 }
 
 #main2 {
