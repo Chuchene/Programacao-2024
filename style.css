@@ -135,7 +135,7 @@ nav li a:hover {
 }
 
 .tituloprojeto {
-
+   text-decoration: underline;
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 30px;
    text-align: center;
@@ -144,6 +144,7 @@ nav li a:hover {
 }
 
 .tituloprojeto2{
+   text-decoration: underline;
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 30px;
    text-align: center;
