@@ -130,7 +130,7 @@ nav li a:hover {
    padding-top:60px ;
    text-align: center;
    font-size: 25px;
-   padding-bottom: 10%;
+   padding-bottom: 5%;
    
 }
 
@@ -299,6 +299,7 @@ footer{
 
 .imagem-agro {
    text-align: center;
-   display: block;
-   width: 350px;
+   display: inline-block;
+   width: 500px;
+   margin: 0 60px 0 60px;
 }
