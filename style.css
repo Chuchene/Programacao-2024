@@ -146,17 +146,10 @@ nav li a:hover {
 .paragrafo {
    display: block;
    margin-block-start: 1em;
-   margin-left: 1.5rem;
-   margin-right: 1.5rem;
+   margin-left: 20rem;
+   margin-right:20rem;
    font-size: 25px;
   
-}
-.paragrafo2 {
-   display: block;
-   margin-block-start: 1rem;
-   margin-left: 1.5rem;
-   margin-right: 1.5rem;
-   font-size: 25px;
 }
 
 #main2 {
@@ -294,15 +287,3 @@ footer{
       
    }
 }
-
-
-   .search-pesquisa {
-   background-color: white;
-   border: 1px solid #181818;
-   color: var(--color-neutral-40);
-   padding: 1em;
-   text-align: center;
-   width: 82%;
-   margin-left: 110px;
-   margin-bottom: 15px;
-   }
