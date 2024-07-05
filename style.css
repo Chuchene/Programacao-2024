@@ -5,7 +5,7 @@
    font-family: 'Inter', sans-serif;
 }
 header{
-   background-color:var(--color-neutral-10)
+   background-color:var(--color-neutral-10);
    box-shadow: 0px 3px 10px var(--color-neutral-10);
 }
 nav li {
